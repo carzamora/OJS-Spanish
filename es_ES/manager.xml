@@ -551,4 +551,6 @@
 	<message key="manager.setup.genres.key.description">Un identificador simbólico corto opcional para este género.</message>
 	<message key="settings.libraryFiles.public.viewInstructions"><![CDATA[<p>Este archivo de la Biblioteca puede ser accesible para descargar, si está habilitado el "Acceso público" en: <blockquote>{$downloadUrl}</blockquote></p>]]></message>
 	<message key="settings.libraryFiles.public.selectLibraryFiles">Seleccione los archivos de la biblioteca para adjuntar</message>
+	<message key="manager.navigationMenus.privacyStatement.description">Enlace a la página que muestra su declaración de privacidad.</message>
+	<message key="manager.navigationMenus.privacyStatement.conditionalWarning"><![CDATA[Este enlace solo se mostrará si ha ingresado una declaración de privacidad en Configuración > Flujo de trabajo > Envíos.]]></message>
 </locale>

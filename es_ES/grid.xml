@@ -248,10 +248,10 @@
 	<message key="grid.task.status.new">Marcar cuando se considere oportuno</message>
 	<message key="grid.submission.active.selectOrphaned">Incluir presentaciones incompletas no enviadas por un autor.</message>
 
-    <!-- Navigation Menus -->
-    <message key="grid.action.addNavigationMenu">Añadir Menú</message>
-    <message key="grid.action.addNavigationMenuItem">Añadir Elemento</message>
-    <message key="grid.navigationMenus.navigationMenuItems.noneExist">No hay elementos de navegación</message>
-    <message key="grid.navigationMenus.navigationMenu.noneExist">No hay menús de navegación</message>
+        <!-- Navigation Menus -->
+        <message key="grid.action.addNavigationMenu">Añadir Menú</message>
+        <message key="grid.action.addNavigationMenuItem">Añadir Elemento</message>
+        <message key="grid.navigationMenus.navigationMenuItems.noneExist">No hay elementos de navegación</message>
+        <message key="grid.navigationMenus.navigationMenu.noneExist">No hay menús de navegación</message>
 	<message key="grid.navigationMenus.navigationMenu.selectType">Escoge un tipo...</message>
 </locale>

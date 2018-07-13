@@ -158,5 +158,12 @@
 	<message key="user.apiKey.generateWarning">Generando una nueva Clave API va a invalidar cualquier otra clave existente de este usuario.</message>
 	<message key="user.apiKey.secretRequired">Antes de generar una Clave API, el administrador del sitio web ha de definir un secreto en el archivo de configuración ("api_key_secret").</message>
 	<message key="user.gossip.description">Las notas ingresadas aquí solo serán visibles para los administradores, administradores de revistas, editores y subeditores.</message>
+	<message key="user.authorization.assignedStageRoleBasedAccessDenied">No ha sido asignado a este envío con un rol que tenga permiso para acceder a esta operación.</message>
+	<message key="user.authorization.invalidReviewAssignment">No tiene permiso para acceder a esta tarea de revisión.</message>
+	<message key="user.authorization.submissionQuery">No tiene permiso para acceder a esta discusión.</message>
+	<message key="user.profile.form.privacyConsentRequired">Debe aceptar los términos de la declaración de privacidad.</message>
+	<message key="user.register.form.privacyConsent"><![CDATA[Sí, acepto que mis datos se recopilen y almacenen de acuerdo con la <a href="{$privacyUrl}" target="_blank"> declaración de política</a>.]]></message>
+	<message key="user.register.form.emailConsent">Sí, me gustaría recibir notificaciones de nuevas publicaciones y anuncios.</message>
+	<message key="user.privacyLink"><![CDATA[Sus datos se almacenan de acuerdo con nuestra <a href="{$privacyUrl}" target="_blank"> declaración de privacidad</a>.]]></message>
 </locale>
 

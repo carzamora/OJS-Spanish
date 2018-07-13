@@ -460,9 +460,9 @@
 	</message>
 	<message key="reviewer.submission.reviewSchedule">Planificación de revisión</message>
 	<message key="reviewer.submission.reviewRequestDate">Petición del editor/a</message>
-	<message key="reviewer.submission.responseDueDate">Fecha límite de la contestación</message>
+	<message key="reviewer.submission.responseDueDate">Fecha límite de respuesta</message>
 	<message key="reviewer.submission.reviewDueDate">Fecha límite de la revisión</message>
-	<message key="submission.task.responseDueDate">Fecha límite de la contestación</message>
+	<message key="submission.task.responseDueDate">Fecha límite de respuesta</message>
 	<message key="navigation.goBack">Volver</message>
 
 	<message key="notification.addedReviewer">Se ha asignado a {$reviewerName} para revisar este envío y se le ha enviado un correo electrónico de notificación.</message>
@@ -576,4 +576,5 @@
 	<message key="stageParticipants.notify.startDiscussion.description">Comenzar una discusión entre usted y {$userFullName}.</message>
 	<message key="list.viewMore">Mostrar más detalles de {$name}</message>
 	<message key="list.viewLess">Ocultar detalles de {$name}</message>
+	<message key="notification.type.reviewAssignmentUpdated">Revisión actualizada.</message>
 </locale>
