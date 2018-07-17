@@ -547,12 +547,17 @@ La recomendación con respecto al manuscrito &quot;{$submissionTitle}&quot; some
 		<subject>Petición de corrección</subject>
 		<body><![CDATA[Estimado/a {$participantName},<br />
 <br />
-Me gustaría pedirle que llevara a cabo la corrección del manuscrito &quot;{$submissionTitle},&quot; para {$contextName}. En el sitio web de la revista puede encontrar dicho manuscrito, así como las instrucciones de corrección.<br />
+Me gustaría pedirle que llevara a cabo la corrección del manuscrito &quot;{$submissionTitle},&quot; para {$contextName} siguiendo los siguientes pasos.<br />
+1. Haga clic en la URL de envío a continuación.<br />
+2. Abra los archivos disponibles en Borradores finales y realice la corrección del texto, puede agregar cualquier Discusión de Corrección según sea necesario.<br />
+3. Guarde los archivos corregidos y suba los archivos en el panel Corregido/Copyedited.<br />
+4. Notifique al Editor que todos los archivos han sido preparados y que el proceso de Producción puede comenzar.<br />
 <br />
-URL del manuscrito: {$submissionUrl}<br />
+{$contextName} URL: {$contextUrl}<br />
+URL del envío: {$submissionUrl}<br />
 Nombre de usuaria/o: {$participantUsername}<br />
 <br />
-Si no puede llevar a cabo este trabajo en este momento o tiene cualquier pregunta, póngase en contacto con nosotros/as. Gracias por aceptar llevar a cabo este importante trabajo para la revista.<br />
+Si no puede llevar a cabo este trabajo en este momento o tiene cualquier pregunta, póngase en contacto con nosotros/as.<br />
 <br />
 {$editorialContactSignature}]]></body>
 		<description>Este correo es enviado por un/a Editor/a de Sección a un/a Corrector/a de Manuscritos para pedirles que comiencen un proceso de corrección. Le proporciona información sobre en el envío y cómo acceder a él.</description>
@@ -561,8 +566,13 @@ Si no puede llevar a cabo este trabajo en este momento o tiene cualquier pregunt
 		<subject>Solicitud de galeradas</subject>
 		<body><![CDATA[Estimado/a {$participantName},<br />
 <br />
-Le solicito que prepare las galeradas del manuscrito &quot;{$submissionTitle},&quot; para {$contextName}.<br />
+El manuscrito &quot;{$submissionTitle},&quot; para {$contextName} ahora necesita que se confecciones las Pruebas de Página, siguiendo los siguientes pasos.<br />
+1. Haga clic en la URL de envío a continuación.<br />
+2. Inicie sesión en la revista y use los Archivos listos para la Producción para crear las galeradas de acuerdo con los estándares de la revista.<br />
+3. Suba las pruebas de página a la sección Galeradas.<br />
+4. Notifique al Editor que las galeradas están cargadas y listas, usando Discusiones de Producción.<br />
 <br />
+{$contextName} URL: {$contextUrl}<br />
 URL del manuscrito: {$submissionLayoutUrl}<br />
 Nombre de usuaria/o: {$participantUsername}<br />
 <br />
