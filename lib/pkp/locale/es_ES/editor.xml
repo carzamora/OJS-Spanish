@@ -31,7 +31,7 @@
 	<message key="editor.review.enrollReviewer.short">Inscribir usuario ya existente</message>
 	<message key="editor.review.unassignReviewer">Desasignar revisor</message>
 	<message key="editor.submissionReview.reviewType">Tipo de revisión</message>
-	<message key="editor.submissionReview.skipEmail">No enviar correo electrónico al autor</message>
+	<message key="editor.submissionReview.skipEmail">No enviar correo electrónico</message>
 	<message key="editor.submissionReview.open">Abrir</message>
 	<message key="editor.submissionReview.blind">Ciego</message>
 	<message key="editor.submissionReview.doubleBlind">Doble ciego</message>
