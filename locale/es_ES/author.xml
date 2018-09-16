@@ -48,7 +48,7 @@
 	<message key="author.submit.howToSubmit"><![CDATA[¿Necesita ayuda? Póngase en contacto con <a href="mailto:{$supportEmail}">{$supportName}</a> para recibir asistencia ({$supportPhone}).]]></message>
 	<message key="author.submit.howToSubmitNoPhone"><![CDATA[¿Necesita ayuda? Póngase en contacto con <a href="mailto:{$supportEmail}">{$supportName}</a> para recibir asistencia.]]></message>
 	<message key="author.submit.journalSection">Sección de la revista</message>
-	<message key="author.submit.journalSectionDescription"><![CDATA[Seleccione la sección adecuada para el envío (más información en <a href="../about/submissions#authorGuidelines" target="_new">Acerca de</a>).]]></message>
+	<message key="author.submit.journalSectionDescription"><![CDATA[Seleccione la sección adecuada para el envío (ver Secciones y Política en <a href="{$aboutUrl}" target="_new">Acerca de</a> la revista).]]></message>
 	<message key="submission.submit.selectSection">Seleccione una sección...</message>
 	<message key="author.submit.submissionChecklist">Lista de comprobación del envío</message>
 	<message key="author.submit.verifyChecklist">Antes de continuar, debe asegurarse de que se cumplen todos los requisitos de la lista de comprobación.</message>

@@ -25,14 +25,17 @@
 	 *  DEFAULT - Default settings for configuration items.
 	-->
 
+	<!-- review froms start -->
+
 	<!-- common -->
-	<message key="context.current">Revista actual:</message>
-	<message key="context.select">Cambiar a otra revista:</message>
+
+	<!-- Journal Management -->
 
 	<!-- Categories -->
 	<message key="navigation.categories">Categorías</message>
 	<message key="navigation.categories.browse">Examinar</message>
 
+	<!--  peer review -->
 
 
 	<message key="reviewer.article.enterReviewForm">Haga clic en el icono para rellenar el formulario de revisión.</message>
@@ -63,9 +66,9 @@
 	<!-- Common Error Messages -->
 
 	<!-- Navigation -->
-	<message key="navigation.journalHelp">Ayuda de la Revista</message>
+	<message key="navigation.journalHelp">Servicio de ayuda de la revista</message>
 	<message key="navigation.current">Actual</message>
-	<message key="navigation.otherJournals">Otras Revistas</message>
+	<message key="navigation.otherJournals">Otras revistas</message>
 	<message key="navigation.browseByIssue">Por número</message>
 	<message key="navigation.browseByAuthor">Por autor/a</message>
 	<message key="navigation.infoForAuthors">Para autores/as</message>
@@ -189,34 +192,24 @@
 	<message key="journal.issn">ISSN</message>
 
 	<!-- User -->
-	<message key="user.noRoles.selectUsersWithoutRoles">Incluir usuarios de esta revista sin roles</message>
 	<message key="user.profile.profileImage">Imagen de perfil</message>
 	<message key="user.showAllJournals">Mostrar Mis revistas</message>
 	<message key="user.registerForOtherJournals">Registrarse en Otras revistas</message>
-	<message key="user.reviewerPrompt">¿Estaría dispuesto a revisar envíos para esta revista?</message>
-	<message key="user.reviewerPrompt.userGroup">Sí, solicitar el rol {$userGroup}.</message>
-	<message key="user.reviewerPrompt.optin">Sí, me gustaría ser contactado con solicitudes para revisar los envíos a esta revista.</message>
-	<message key="user.register.contextsPrompt">¿En qué revistas de este sitio le gustaría registrarse?</message>
-	<message key="user.register.otherContextRoles">Solicitar los siguientes roles.</message>
-	<message key="user.register.noContextReviewerInterests">Si ha solicitado ser revisor/a en alguna revista introduzca sus temas de interés, por favor.</message>
 	<message key="user.myJournals">Mis revistas</message>
-	<message key="user.manageMySubscriptions">Gestionar Mis suscripciones</message>
+	<message key="user.manageMySubscriptions">Gestionar mis suscripciones</message>
 	<message key="user.noRoles.chooseJournal">En este momento su cuenta no está asociada a ninguna revista. Elija un revista:</message>
 	<message key="user.noRoles.noRolesForJournal">En este momento su cuenta no tiene asignado ningún rol para esta revista. Elija entre las siguientes acciones:</message>
 	<message key="user.noRoles.submitArticle">Envíe una propuesta</message>
 	<message key="user.noRoles.submitArticleRegClosed">Envíe un artículo: En este momento el registro de autores/as se encuentra deshabilitado.</message>
 	<message key="user.noRoles.regReviewer">Registrarse como revisor/a</message>
-	<message key="user.noRoles.regReviewerClosed">Registrarse como revisor/a: El registro de revisores/as actualmente se encuentra deshabilitado.</message>
+	<message key="user.noRoles.regReviewerClosed">Registrarse como revisor/a: En este momento el registro de revisores/as se encuentra deshabilitado.</message>
 
 	<!-- Roles -->
 	<message key="user.role.manager">Gestor/a de la revista</message>
 	<message key="user.role.subEditor">Editor/a de sección</message>
 	<message key="user.role.subscriptionManager">Gestor/a de suscripciones</message>
 	<message key="user.role.managers">Gestores/as de la revista</message>
-	<message key="user.role.subEditors">Editores/as de sección</message>
 	<message key="user.role.subscriptionManagers">Gestores/as de suscripción</message>
-	<message key="user.role.journalAssistant">Asistente/a de revista</message>
-	<message key="user.role.journalAssistants">Asistentes/as de revista</message>
 
 	<!-- Common Issue Terms -->
 	<message key="issue.issue">Número</message>
@@ -234,7 +227,6 @@
 	<message key="issue.fullIssue">Número completo</message>
 	<message key="issue.nonpdf.title">Descargar número</message>
 	<message key="issue.viewIssue">Ver número</message>
-	<message key="issue.return">Volver a los detalles del número</message>
 
 	<!-- Common Subscription Type Terms -->
 	<message key="subscriptionTypes.currency">Moneda</message>
@@ -254,10 +246,9 @@
 	<message key="subscriptions.status.active"> Activo/a</message>
 	<message key="subscriptions.status.needsInformation">Necesita información</message>
 	<message key="subscriptions.status.needsApproval">Necesita aprobación</message>
-	<message key="subscriptions.status.awaitingManualPayment">Esperando el Pago manual</message>
-	<message key="subscriptions.status.awaitingOnlinePayment">Esperando el Pago en línea</message>
-	<message key="subscriptions.status.noSubscription">Usted no tiene una suscripción activa.</message>
-	<message key="subscriptions.status.other">Otro, ver Notas</message>
+	<message key="subscriptions.status.awaitingManualPayment">Esperando el pago manual</message>
+	<message key="subscriptions.status.awaitingOnlinePayment">Esperando el pago en línea</message>
+	<message key="subscriptions.status.other">Otro, ver notas</message>
 	<message key="subscriptions.individualDescription">Los suscriptores individuales deben iniciar sesión para acceder al contenido de la suscripción.</message>
 	<message key="subscriptions.institutionalDescription">Los suscriptores institucionales no necesitan iniciar sesión. El dominio del usuario/a o la dirección IP se utilizan para dar acceso al contenido de la suscripción.</message>
 	<message key="subscriptions.institutionalOnlinePaymentDescription"><![CDATA[<strong>Nota:</strong> Antes de activar las suscripciones institucionales adquiridas en línea, es necesario aprobar su dominio y rangos de IP.]]></message>
@@ -268,7 +259,6 @@
 	 *
 	-->
 	<message key="submission.event.general.defaultEvent">Evento de envío</message>
-	<message key="submission.event.submissionSubmitted">Artículo enviado</message>
 	<message key="submission.event.general.issueScheduled">Envío mandado a la cola de planificación de números</message>
 	<message key="submission.event.general.issueAssigned">Envío asignado a número</message>
 	<message key="submission.event.general.articlePublished">Artículo publicado</message>
@@ -283,7 +273,6 @@
 	<message key="submission.event.editor.editorFile">Archivo del editor/a actualizado</message>
 	<message key="submission.event.editor.submissionArchived">Envío archivado</message>
 	<message key="submission.event.editor.submissionRestored">Envío recuperado del archivo</message>
-
 
 	<message key="submission.event.copyedit.copyeditorAssigned">Corrector/a de originales asignado al envío</message>
 	<message key="submission.event.copyedit.copyeditorUnassigned">Corrector/a de originales no asignado al envío</message>
@@ -349,9 +338,6 @@
 	<!-- General plugin information -->
 	<message key="plugins.categories.auth.description">Los módulos de autorización permiten a Open Journal Systems delegar las tareas de autenticación de usuarios/as a otros sistemas, como servidores LDAP.</message>
 	<message key="plugins.categories.generic.description">Los módulos genéricos se utilizan para ampliar las características del Open Journal Systems de diversas maneras y que son incompatibles con otras categorías de módulos.</message>
-	<message key="plugins.categories.implicitAuth">Módulos de autenticación implícita</message>
-	<message key="plugins.categories.implicitAuth.description">Los módulos de autenticación implícita ponen en funcionamiento un soporte para la autenticación de usuarios/as basado en encabezados http.</message>
-
 	<!-- Files Browser -->
 
 	<!-- Journal Setup -->
@@ -517,14 +503,7 @@
 
 	<!-- Article Submission Step 3 -->
 	<message key="author.submit.uploadInstructions"><![CDATA[
-<p>Para cargar un manuscrito en esta revista, complete los siguientes pasos:</p> 
-<ol> 
-<li>Haga clic en Examinar (o Seleccionar archivo) en esta página para abrir la ventana Seleccionar archivo y así poder localizarlo en su disco duro.</li>
-<li>Localice el archivo que desea enviar y resáltelo.</li>
-<li>Haga clic en Abrir (en la ventana Seleccionar archivo) y verá el nombre del archivo en esta página.</li>
-<li>Haga clic en Cargar para enviar el archivo al sitio web de la revista y renombrarlo según las normas de la revista.</li>
-<li>Una vez cargado el envío, haga clic en Guardar y continuar, en la parte inferior de esta página.</li>
-</ol>]]></message>
+<p>Para cargar un manuscrito en esta revista, complete los siguientes pasos:</p> <ol> <li>Haga clic en Examinar (o Seleccionar archivo) en esta página para abrir la ventana Seleccionar archivo y así poder localizarlo en su disco duro.</li> <li>Localice el archivo que desea enviar y resáltelo.</li> <li>Haga clic en Abrir (en la ventana Seleccionar archivo) y verá el nombre del archivo en esta página.</li> <li>Haga clic en Cargar para enviar el archivo al sitio web de la revista y renombrarlo según las normas de la revista.</li> <li>Una vez cargado el envío, haga clic en Guardar y continuar, en la parte inferior de esta página.</li> </ol>]]></message>
 
 	<!-- Article Submission Step 4 -->
 
@@ -595,7 +574,6 @@
 	<!-- Registration -->
 	<message key="user.register.noJournals">En este sitio no hay revistas en las que se pueda registrar.</message>
 	<message key="user.register.privacyStatement">Declaración de privacidad</message>
-	<message key="user.register.loginToRegister">Introduzca su nombre de usuario/a y contraseña actual para registrarse en esta revista.</message>
 	<message key="user.register.registrationDisabled">En este momento esta revista no acepta registros de usuario/a.</message>
 	<message key="user.register.form.passwordLengthTooShort">La contraseña que ha introducido no es bastante larga.</message>
 	<message key="user.register.readerDescription">Recibirá una notificación en su correo electrónico cuando se publique un nuevo número de la revista.</message>
@@ -604,7 +582,6 @@
 	<message key="user.register.reviewerDescriptionNoInterests">Deseo realizar la evaluación por pares de envíos a la revista.</message>
 	<message key="user.register.reviewerDescription">Deseo realizar la evaluación por pares de envíos al sitio.</message>
 	<message key="user.register.reviewerInterests">Identificar intereses de revisión (áreas fundamentales y métodos de investigación):</message>
-	<message key="user.register.form.emailConsentAllContexts">Sí, me gustaría recibir notificaciones de nuevas publicaciones y anuncios para todas las revistas con las que me haya registrado.</message>
 
 	<!-- Subscriptions -->
 	<message key="user.subscriptions.mySubscriptions">Mis suscripciones</message>
@@ -623,8 +600,8 @@
 	<message key="user.subscriptions.purchaseNewSubscription">Comprar una nueva suscripción</message>
 	<message key="user.subscriptions.purchaseIndividualSubscription">Comprar una suscripción individual</message>
 	<message key="user.subscriptions.purchaseInstitutionalSubscription">Comprar una suscripción institucional</message>
-	<message key="user.subscriptions.expires">Caduca: {$date}</message>
-	<message key="user.subscriptions.expired">Caducada: {$date}</message>
+	<message key="user.subscriptions.expires">Expira el {$date}</message>
+	<message key="user.subscriptions.expired">Expiró el {$date}</message>
 	<message key="user.subscriptions.viewSubscriptionTypes">Ver tipos de suscripción disponibles</message>
 	<message key="user.subscriptions.form.typeId">Tipo de suscripción</message>
 	<message key="user.subscriptions.form.membership">Afiliación</message>
@@ -690,7 +667,6 @@
 	<message key="about.focusAndScope">Enfoque y alcance</message>
 	<message key="about.sectionPolicies">Políticas de sección</message>
 	<message key="about.submissions">Envíos</message>
-	<message key="about.onlineSubmissions">Envíos en línea</message>
 	<message key="about.onlineSubmissions.login">Ir a Iniciar sesión</message>
 	<message key="about.onlineSubmissions.registrationRequired">El registro y el inicio de sesión son necesarios para enviar elementos en línea y para comprobar el estado de los envíos recientes. {$login} a una cuenta existente o {$register} una nueva cuenta.</message>
 	<message key="about.authorGuidelines">Directrices para autores/as</message>
@@ -734,6 +710,7 @@
 	<message key="donations.thankYou">Gracias</message>
 	<message key="donations.thankYouMessage">Gracias por su contribución. Valoramos mucho su contribución.</message>
 
+	<!-- Gifts -->
 	<!-- Payments -->
 	<message key="payment.loginRequired">Tiene que iniciar la sesión para realizar un pago.</message>
 	<message key="payment.loginRequired.forArticle">Es necesario comprar una suscripción o un artículo para acceder al elemento. Para verificar la suscripción, acceder a la compra anterior, o adquirir un artículo, inicie sesión en la revista.</message>
@@ -750,16 +727,12 @@
 	<message key="payment.authorFees">Cuotas de los autores/as</message>
 	<message key="payment.type.submission">Cuota de envío</message>
 	<message key="payment.type.publication">Cuota de publicación</message>
-	<message key="payment.type.publication.required">Debe pagarse la tarifa de publicación.</message>
 	<message key="payment.type.fastTrack">Cuota de revisión rápida</message>
 	<message key="payment.type.membership">Cuota de afiliación individual</message>
 	<message key="payment.type.purchaseArticle">Cuota de compra de artículos</message>
 	<message key="payment.type.purchaseIssue">Cuota de compra de números</message>
 	<message key="payment.type.subscription">Cuota de suscripción</message>
 	<message key="payment.type.donation">Donaciones</message>
-	<message key="payment.requestPublicationFee">Solicitar tarifa de publicación ({$feeAmount})</message>
-	<message key="payment.notFound">Se ha solicitado un pago, pero la solicitud ha expirado. Póngase en contacto con el administrador de la revista para obtener más detalles.</message>
-
 	<message key="payment.donation.makeDonation">Hacer una donación</message>
 
 	<message key="payment.submission.paySubmission">Pagar cuota de envío</message>
@@ -777,38 +750,7 @@
 	<!-- Installer -->
 	<message key="installer.appInstallation">Instalación de OJS</message>
 	<message key="installer.ojsUpgrade">Actualización de OJS</message>
-	<message key="installer.installationInstructions"><![CDATA[<h4>Versión OJS {$version}</h4> 
-
-<p>Gracias por descargar con Public Knowledge Project su <strong>Open Journal Systems</strong>. Antes de seguir, lea el archivo <a href="{$baseUrl}/docs/README">LÉAME</a> incluido en este software. Para más información acerca de Public Knowledge Project y sus proyectos de software, visite el sitio web <a href="http://pkp.sfu.ca/" target="_blank">de PKP</a>. Si ha de informar sobre algún error o tiene preguntas sobre asistencia técnica en Open Journal Systems, consulte <a href="http://forum.pkp.sfu.ca" target="_blank">foro de asistencia</a> o visite en línea <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">el sistema de información de errores</a> de PKP. Aunque el foro de ayuda es el método preferido de contacto, también puede enviar un correo electrónico a nuestro equipo a <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p> 
-
-<h4>Actualizar</h4> 
-
-<p>Si está actualizando una instalación ya existente de OJS 2.x, <a href="{$upgradeUrl}">haga clic aquí</a> para actualizar.</p> 
-
-<h4>Requisitos de sistema recomendados</h4>
-
-<ul>
-	<li><a href="http://www.php.net/" target="_blank">PHP</a> &gt;= {$phpRequiredVersion}; está utilizando actualmente PHP {$phpVersion}{$wrongPhpText}</li> 
-	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> &gt;= 4.1 o <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> &gt;= 9.1.5</li> 
-	<li><a href="http://httpd.apache.org/" target="_blank">Apache</a> &gt;= 1.3.2x o &gt;= 2.0.4x o Microsoft IIS 6</li> 
-	<li>Sistema operativo: Cualquier SO compatible con el software anterior, incluidos <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.sun.com/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a> y <a href="http://www.microsoft.com/">Windows</a></li> 
-</ul> 
-
-<p>Ya que PKP no dispone de recursos para probar todas las combinaciones posibles de las diferentes versiones de software junto con sus plataformas, éste no garantiza que el sistema opere correctamente.</p> <p>Se puede cambiar la configuración después de la instalación editando el archivo <tt>config.inc.php</tt> en el directorio base de OJS, o utilizando la interfaz web de la administración del sitio.</p> 
-
-<h4>Sistemas de bases de datos compatibles</h4>
-
-<p>Sólo se ha probado OJS en MySQL y PostgreSQL, aunque otros sistemas de gestión de bases de datos aceptados por <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> podrían funcionar de forma completa o parcial. Puede enviar al equipo de OJS informes de compatibilidad o parches de código para DBMSs alternativos.</p> 
-
-<h4>Pasos para la preinstalación</h4>
-
-<p>1. Los siguientes archivos y directorios, junto con su contenido, tienen que ser editables:</p> 
-<ul> 
-	<li><tt>config.inc.php</tt> es editable (opcional): {$writable_config}</li> <li><tt>public/</tt> es editable: {$writable_public}</li> <li><tt>cache/</tt> es editable: {$writable_cache}</li> 
-	<li><tt>cache/t_cache/</tt> es editable: {$writable_templates_cache}</li> <li><tt>cache/t_compile/</tt> es editable: {$writable_templates_compile}</li> 
-	<li><tt>cache/_db</tt> es editable: {$writable_db_cache}</li> </ul> 
-
-<p>2. Se debe crear un directorio para guardar los archivos cargados y debe ser editable (ver a continuación "Configuración del archivo").</p>]]></message>
+	<message key="installer.installationInstructions"><![CDATA[<h4>Versión OJS {$version}</h4> <p>Gracias por descargar con Public Knowledge Project su <strong>Open Journal Systems</strong>. Antes de seguir, lea el archivo <a href="{$baseUrl}/docs/README">LÉAME</a> incluido en este software. Para más información acerca de Public Knowledge Project y sus proyectos de software, visite el sitio web <a href="http://pkp.sfu.ca/" target="_blank">de PKP</a>. Si ha de informar sobre algún error o tiene preguntas sobre asistencia técnica en Open Journal Systems, consulte <a href="http://forum.pkp.sfu.ca" target="_blank">foro de asistencia</a> o visite en línea <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">el sistema de información de errores</a> de PKP. Aunque el foro de ayuda es el método preferido de contacto, también puede enviar un correo electrónico a nuestro equipo a <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p> <h4>Actualizar</h4> <p>Si está actualizando una instalación ya existente de OJS 2.x, <a href="{$upgradeUrl}">haga clic aquí</a> para actualizar.</p> <h4>Requisitos de sistema recomendados</h4> <ul> <li><a href="http://www.php.net/" target="_blank">PHP</a> &gt;= {$phpRequiredVersion}; está utilizando actualmente PHP {$phpVersion}{$wrongPhpText}</li> <li><a href="http://www.mysql.com/" target="_blank">MySQL</a> &gt;= 4.1 o <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> &gt;= 9.1.5</li> <li><a href="http://httpd.apache.org/" target="_blank">Apache</a> &gt;= 1.3.2x o &gt;= 2.0.4x o Microsoft IIS 6</li> <li>Sistema operativo: Cualquier SO compatible con el software anterior, incluidos <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.sun.com/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a> y <a href="http://www.microsoft.com/">Windows</a></li> </ul> <p>Ya que PKP no dispone de recursos para probar todas las combinaciones posibles de las diferentes versiones de software junto con sus plataformas, éste no garantiza que el sistema opere correctamente.</p> <p>Se puede cambiar la configuración después de la instalación editando el archivo <tt>config.inc.php</tt> en el directorio base de OJS, o utilizando la interfaz web de la administración del sitio.</p> <h4>Sistemas de bases de datos compatibles</h4> <p>Sólo se ha probado OJS en MySQL y PostgreSQL, aunque otros sistemas de gestión de bases de datos aceptados por <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> podrían funcionar de forma completa o parcial. Puede enviar al equipo de OJS informes de compatibilidad o parches de código para DBMSs alternativos.</p> <h4>Pasos para la preinstalación</h4> <p>1. Los siguientes archivos y directorios, junto con su contenido, tienen que ser editables:</p> <ul> <li><tt>config.inc.php</tt> es editable (opcional): {$writable_config}</li> <li><tt>public/</tt> es editable: {$writable_public}</li> <li><tt>cache/</tt> es editable: {$writable_cache}</li> <li><tt>cache/t_cache/</tt> es editable: {$writable_templates_cache}</li> <li><tt>cache/t_compile/</tt> es editable: {$writable_templates_compile}</li> <li><tt>cache/_db</tt> es editable: {$writable_db_cache}</li> </ul> <p>2. Se debe crear un directorio para guardar los archivos cargados y debe ser editable (ver a continuación "Configuración del archivo").</p>]]></message>
 	<message key="installer.upgradeInstructions"><![CDATA[<h4>Versión OJS {$version}</h4> <p>Gracias por descargar con Public Knowledge Project su <strong>Open Journal Systems</strong>. Antes de seguir, lea el archivo <a href="{$baseUrl}/docs/README">LÉAME</a> y los archivos <a href="{$baseUrl}/docs/UPGRADE">ACTUALIZAR</a> incluidos en este software. Para más información acerca de Public Knowledge Project y sus proyectos de software, visite el sitio web <a href="http://pkp.sfu.ca/" target="_blank">de PKP</a>. Si ha de informar sobre algún error o tiene preguntas sobre asistencia técnica en Open Journal Systems, consulte <a href="http://forum.pkp.sfu.ca" target="_blank">foro de asistencia</a> o visite en línea <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">el sistema de información de errores</a> de PKP. Aunque el foro de ayuda es el método preferido de contacto, también puede enviar un correo electrónico a nuestro equipo a <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p> <p>Le <strong>recomendamos encarecidamente</strong> que haga copias de seguridad de sus bases de datos, directorio de archivos y del directorio de instalación de OJS antes de llevar este proceso a cabo.</p> <p>Si está utilizando un <a href="http://www.php.net/features.safe-mode" target="_blank">Modo Seguro de PHP</a>, asegúrese de que la directiva max_execution_time en el archivo de configuración php.ini está en su límite máximo. Si se alcanza este u otro límite de tiempo (p. ej. la directiva "Timeout" de Apache) y el proceso de actualización se interrumpe, será necesario hacerlo de forma manual.</p>]]></message>
 	<message key="installer.localeSettingsInstructions"><![CDATA[Para obtener compatibilidad completa de Unicode (UTF-8), seleccione UTF-8 para todas las configuraciones de caracteres. Tenga en cuenta que esta funcionalidad sólo es compatible con el servidor de las bases de datos MySQL &gt;= 4.1.1 o PostgreSQL &gt;= 7.1. Tenga también en cuenta que la compatibilidad completa de Unicode requiere PHP &gt;= 4.3.0 compilado con soporte para la <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> biblioteca (habilitada por defecto en instalaciones más recientes de PHP). Si su servidor no reúne los requisitos expuestos, puede tener problemas al utilizar conjuntos de caracteres extensos. <br /><br /> Su servidor actualmente acepta mbstring: <strong>{$supportsMBString}</strong>]]></message>
 	<message key="installer.allowFileUploads"><![CDATA[Su servidor actualmente permite cargas de archivos: <strong>{$allowFileUploads}</strong>]]></message>
@@ -910,8 +852,6 @@
 
 
 	<!-- Notification Types -->
-	<message key="notification.mailListDescription">Introduzca su dirección de correo electrónico para recibir notificaciones inmediatas sobre contenido nuevo importante que se ha añadido a la revista.</message>
-	<message key="notification.notificationsPublicDescription"><![CDATA[  <a href="{$emailUrl}">a través de correo electrónico.</a>]]></message>
 
 	<message key="notification.type.articleSubmitted">Se envió un nuevo artículo, "{$title}".</message>
 	<message key="notification.type.editing">Edición de eventos</message>
@@ -941,11 +881,20 @@
 
 	<!-- Debug messages -->
 	<message key="debug.notes.currencyListLoad">Lista de monedas “{$filename}” cargada de XML</message>
-
+	<message key="context.current">Revista actual:</message>
+	<message key="context.select">Cambiar a otra revista:</message>
 	<message key="article.return">Volver a los detalles del artículo</message>
-
-	
-	
+	<message key="user.noRoles.selectUsersWithoutRoles">Incluir usuarios de esta revista sin roles</message>
+	<message key="user.reviewerPrompt">¿Estaría dispuesto a revisar envíos para esta revista?</message>
+	<message key="user.reviewerPrompt.userGroup">Sí, solicitar el rol {$userGroup}.</message>
+	<message key="user.register.contextsPrompt">¿En qué revistas de este sitio le gustaría registrarse?</message>
+	<message key="user.register.otherContextRoles">Solicitar los siguientes roles.</message>
+	<message key="user.register.noContextReviewerInterests">Si ha solicitado ser revisor/a en alguna revista introduzca sus temas de interés, por favor.</message>
+	<message key="user.role.subEditors">Editores/as de sección</message>
+	<message key="user.role.journalAssistant">Asistente/a de revista</message>
+	<message key="user.role.journalAssistants">Asistentes/as de revista</message>
+	<message key="issue.return">Volver a los detalles del número</message>
+	<message key="submission.event.submissionSubmitted">Artículo enviado</message>
 	<message key="search.results.orderBy">Ordenar resultados por</message>
 	<message key="search.results.orderBy.article">Título del artículo</message>
 	<message key="search.results.orderBy.author">Autor/a</message>
@@ -1019,14 +968,16 @@ La configuración del soporte CLOCKSS para Open Journal Systems no hace falta qu
 	<message key="notification.type.assignProductionUser">Asigne un usuario/a para crear galeradas mediante el enlace Añadir de la lista de participantes.</message>
 	<message key="notification.type.awaitingRepresentations">Esperando galeradas.</message>
 	<message key="navigation.subscriptions">Suscripciones</message>
-	<message key="reader.purchasePrice">({$currency} {$price})</message>
-	<message key="manager.setup.porticoDescription">Portico es un servicio sin fines de lucro comprometido con la preservación de las publicaciones digitales, incluidas las publicaciones electrónicas, los libros electrónicos y las colecciones históricas digitalizadas. Si su revista firmó un contrato con Portico, habilítelo aquí:</message>
-
-	
 
 	<!-- legacy strings from OJS 2, for upgraded installations from OJS 2 -->
 	<message key="log.editor.submissionExpedited">{$editorName} se hará cargo del proceso de edición del artículo {$submissionId}.</message>
-
-	<message key="notification.type.public">Anuncios públicos</message>
-	
+	<message key="user.reviewerPrompt.optin">Sí, me gustaría que me contactaran para revisar artículos de esta revista.</message>
+	<message key="subscriptions.status.noSubscription">No tiene una suscripción activa.</message>
+	<message key="reader.purchasePrice">({$currency} {$price})</message>
+	<message key="manager.setup.porticoDescription">Portico es un servicio sin ánimo de lucro comprometido con la preservación de las publicaciones digitales, entre las que se incluyen revistas y libros electrónicos y colecciones históricas digitalizadas. Si su revista ha firmado un contrato con Portico actívelo aquí:</message>
+	<message key="user.register.form.emailConsentAllContexts">Sí, deseo que me notifiquen acerca de las nuevas publicaciones y avisos de todas las revistas en las que me he registrado.</message>
+	<message key="payment.type.publication.required">La tasa de publicación está pendiente de pago.</message>
+	<message key="payment.requestPublicationFee">Solicitar tasa de publicación ({$feeAmount})</message>
+	<message key="payment.notFound">Se le ha solicitado un pago pero la petición ha expirado. Contacte con el administrador/a de la revista para obtener más detalles.</message>
+	<message key="notification.type.public">Avisos públicos</message>
 </locale>
